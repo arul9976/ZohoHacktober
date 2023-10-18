@@ -1,0 +1,49 @@
+.container-fluid {
+  width: 100%;
+  height: 100vh;
+  background: #000;
+}
+.container-fluid .box .box_body {
+  width: 100%;
+  height: 400px !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.container-fluid .box .box_body .intBtn {
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 30%;
+}
+.container-fluid .box .box_body .matrix {
+  border-radius: 10px;
+  background: #e6e6e6;
+  width: 100%;
+  height: auto;
+}
+.container-fluid .box .box_body .matrix li {
+  list-style: none;
+  margin: 10px 0;
+  padding: 5px;
+}
+.container-fluid .box .box_body .matrix li b {
+  margin: 4px 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  background: red;
+  padding: 5px 12px;
+}
+.container-fluid .box .box_body .result {
+  border-radius: 10px;
+  background: #e6e6e6;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+}/*# sourceMappingURL=index.css.map */
