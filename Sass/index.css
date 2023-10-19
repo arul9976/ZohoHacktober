@@ -19,6 +19,9 @@
   width: 100%;
   height: 30%;
 }
+.container-fluid .box .box_body .intBtn input {
+  outline: none;
+}
 .container-fluid .box .box_body .matrix {
   border-radius: 10px;
   background: #e6e6e6;
@@ -36,6 +39,11 @@
   border-radius: 10px;
   background: red;
   padding: 5px 12px;
+}
+.container-fluid .box .box_body .matrix li b button {
+  border: none;
+  outline: none;
+  background: transparent;
 }
 .container-fluid .box .box_body .result {
   border-radius: 10px;

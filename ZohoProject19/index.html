@@ -1,33 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../Sass/index.css">
-    <title>Hacktober_18</title>
+    <title>Hacktober_19</title>
 </head>
+
 <body>
     <div class="container-fluid d-flex align-items-center justify-content-center">
         <div class="box bg-info p-3 rounded-2">
-            <div class="head h-25"><h2>Zoho Project Hacktober_18</h2></div>
+            <div class="head h-25">
+                <h2>Zoho Project Hacktober_19</h2>
+            </div>
             <div class="box_body h-75">
                 <div class="intBtn">
-                    <input class="input-group-text w-100 mx-2" type="text" placeholder="10,8,7">
+                    <input class="input-group-text w-100 mx-2" type="text" placeholder="Type Word" required>
                     <button id="btn" class="btn btn-primary">Submit</button>
-                    <button id="run" class="btn btn-danger mx-2">Run</button>
                 </div>
                 <div id="matrix" class="matrix my-2 d-flex flex-column align-items-center justify-content-center">
-
+                    <li>
+                        <b>ZOHO <button id="remove"><i class="bi bi-x-circle-fill"></i></button></b>
+                    </li>
                 </div>
-                <div class="result">
-                    
+                <div class="result d-flex flex-column">
+
                 </div>
             </div>
         </div>
     </div>
 
+    <!-- Javascript -->
     <script src="script.js"></script>
+    <!-- Bootstrap -->
     <script src="../Bootstrap/js/bootstrap.min.js"></script>
 </body>
+
 </html>
